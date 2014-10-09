@@ -1,0 +1,105 @@
+body
+ {
+  font-family: sans-serif;
+
+background-color: hsl(55, 100%, 60%);
+background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+
+-webkit-background-size: 50px 50px;
+ }
+
+h1
+ {
+  text-align: center;
+  font-family: "Trebuchet MS";
+  }
+
+table
+ {
+  margin: auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+ 
+  padding: 2%;
+  margin-top: 5%;
+ }
+
+tbody
+ {
+  /* border: none; */
+ }
+
+td,th
+ {
+  text-align: center;
+ }
+
+th
+ {
+  font-weight: bold;
+ }
+
+th:first-child, td:first-child
+ {
+  text-align: left;
+ }
+
+/* Teams */
+
+tr:first-child th
+ {
+  color: white;
+ }
+
+.team-0 
+ {
+  /* Events Column */
+  font-weight: bold;
+ }
+
+.team-1
+ {
+  /* Purple Drank */
+  background-color: purple;
+ }
+
+.team-2
+ {
+  /* Red Bulls */
+  background-color: red;
+ }
+
+.team-3
+ {
+  /* Black Attack */
+  background-color: black;
+ }
+
+.team-4
+ {
+  /* Blue Barracudas */
+  background-color: blue;
+ }
+
+.no-update
+ {
+   background-color: red;
+   width: 20px;
+   height: 20px;
+   display: block;
+ }
+
+.yes-update
+  {
+   background-color: green;
+   width: 20px;
+   height: 20px;
+   display: block;
+ }
+
