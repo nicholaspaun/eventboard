@@ -108,3 +108,7 @@ tr:first-child th
 	color: white;
 	font-size: 200%;
  }
+
+span.no-update, span.yes-update {
+	    float: right;
+    }

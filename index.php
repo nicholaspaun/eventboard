@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<h1>Sports Day 2013</h1>
-		<?php include('tabledat.php'); ?>
 		<span class="no-update"></span>
+		<?php include('tabledat.php'); ?>
 	</body>
 </html>
