@@ -103,3 +103,8 @@ tr:first-child th
    display: block;
  }
 
+.rank
+ {
+	color: white;
+	font-size: 200%;
+ }

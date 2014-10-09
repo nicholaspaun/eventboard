@@ -19,9 +19,12 @@ foreach($csv as $l_num => $line)
     $column = str_replace('"','',$column);
 
     if ($l_num == 0)
-     echo("  <th class='team-$c_num'>$column</th>\n");
+	    echo("  <th class='team-$c_num'>$column</th>\n");
+    else if ($l_num == 1)
+	echo("  <th class='team-$c_num rank'>$column</th>\n");
     else
      echo("  <td>$column</td>\n");
+
 
     if (is_numeric($column))
       {
