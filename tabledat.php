@@ -2,7 +2,7 @@
 #eventboard: the Mount Sentinel scoreboard
 #(C) Copyright 2010-2011 Nicholas Paun. All Rights Reserved.
 
-$csv = file('sports-day.2013.csv');
+$csv = file('sports-day.2014.csv');
 
 
 echo("<table>\n");
